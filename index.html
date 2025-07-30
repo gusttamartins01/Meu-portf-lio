@@ -95,7 +95,7 @@
             <div class="col-md-7">
                 <p>
                     Olá! Me chamo <strong>Gustavo Martins</strong>, sou natural de <strong>Fortaleza - CE</strong> e atuo como
-                    <strong>Desenvolvedor Fullstack</strong>, com experiência em <strong>HTML, CSS, JavaScript, React, Bootstrap</strong>
+                    <strong>Desenvolvedor Web</strong>, com experiência em <strong>HTML, CSS, JavaScript, React, Bootstrap, tailwind, React, typeScript</strong>
                     e <strong>Node.js</strong>. Atualmente, estou cursando <strong>Análise e Desenvolvimento de Sistemas</strong>, onde venho
                     aprofundando meus conhecimentos técnicos e expandindo minha visão sobre o universo da tecnologia.
                 </p>
@@ -122,19 +122,107 @@
             </div>
 
         </div>
-    </section>
 
     <section id="habilidades" class="section" data-aos="fade-up">
-        <h2 class="mb-5 text-center">Habilidades</h2>
-        <ul>
-            <li><i class="fab fa-html5"></i></li>
-            <li><i class="fab fa-css3-alt"></i></li>
-            <li><i class="fab fa-bootstrap"></i></li>
-            <li><i class="fab fa-js-square"></i></li>
-            <li><i class="fab fa-node-js"></i></li>
-            <li><i class="fab fa-react"></i></li>
-        </ul>
-    </section>
+  <h2 class="mb-5 text-center">Habilidades</h2>
+  <ul class="habilidades-list">
+    <li>
+      <div class="card-skill">
+        <i class="fab fa-html5" style="color:#E44D26;"></i>
+        
+      </div>
+    </li>
+    <li>
+      <div class="card-skill">
+        <i class="fab fa-css3-alt" style="color:#264DE4;"></i>
+        
+      </div>
+    </li>
+    <li>
+      <div class="card-skill">
+        <i class="fab fa-js-square" style="color:#F7DF1E;"></i>
+        
+      </div>
+    </li>
+    <li>
+      <div class="card-skill">
+        <i class="fab fa-bootstrap" style="color:#7952B3;"></i>
+       
+      </div>
+    </li>
+    <li>
+      <div class="card-skill">
+        <i class="fab fa-react" style="color:#61DAFB;"></i>
+        
+      </div>
+    </li>
+    <li>
+      <div class="card-skill">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript">
+       
+      </div>
+    </li>
+    <li>
+      <div class="card-skill">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS">
+    
+      </div>
+    </li>
+    <li>
+      <div class="card-skill">
+        <i class="fab fa-node-js" style="color:#68A063;"></i>
+
+      </div>
+    </li>
+  </ul>
+</section>
+
+<style>
+.habilidades-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 0;
+  list-style: none;
+}
+
+.card-skill {
+  background: #ffffff10;
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  padding: 25px;
+  width: 140px;
+  height: 140px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-skill i,
+.card-skill img {
+  font-size: 3.5rem;
+  height: 60px;
+  width: 60px;
+}
+
+.card-skill p {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.card-skill:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+</style>
+
+
+
 
     <section id="servicos" class="section container" data-aos="fade-up">
         <h2 class="mb-4 text-center">Serviços</h2>
@@ -233,4 +321,5 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="script.js"></script>
 </body>
+</html>dy>
 </html>
