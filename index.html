@@ -1,325 +1,258 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Portfólio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfólio - Gustavo Martins</title>
+
+  <!-- CSS e Bibliotecas -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre Mim</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#depoimentos">Depoimentos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contatos">Contatos</a></li>
-                </ul>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre Mim</a></li>
+          <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+          <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+          <li class="nav-item"><a class="nav-link" href="#depoimentos">Depoimentos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contatos">Contatos</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Início -->
+  <section id="inicio" class="section d-flex justify-content-center align-items-center">
+    <div class="intro-text text-center me-4" data-aos="fade-up">
+      <h1>Olá, me chamo <br>Gustavo Martins</h1>
+      <p>Desenvolvedor Web</p>
+    </div>
+    <div class="intro-image" data-aos="fade-up" data-aos-delay="300">
+      <img src="gus1.jpg" alt="Foto de Gustavo Martins" class="img-fluid" />
+    </div>
+  </section>
+
+  <!-- Projetos -->
+  <section id="projetos" class="section container" data-aos="fade-up">
+    <h2 class="mb-5 text-center">Projetos</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <a href="https://revo-fit.com/" target="_blank" class="project-card-link">
+          <div class="card p-3 shadow-sm project-card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Landing Page Academia</h5>
+              <p class="card-text">
+                Projeto moderno utilizando TypeScript, React e TailwindCSS para criar uma landing page responsiva para academia.
+                Backend desenvolvido em Node.js com Supabase.
+              </p>
+              <i class="fab fa-github github-icon"></i>
             </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="https://github.com/gusttamartins01/chatbot-teste.git" target="_blank" class="project-card-link">
+          <div class="card p-3 shadow-sm project-card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Chatbot com IA</h5>
+              <p class="card-text">
+                Chatbot interativo com inteligência artificial feito em HTML, CSS, JS e Node.js.
+                Permite tirar dúvidas com respostas automatizadas.
+              </p>
+              <i class="fab fa-github github-icon"></i>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="https://github.com/gusttamartins01/fruit-catcher-game.git" target="_blank" class="project-card-link">
+          <div class="card p-3 shadow-sm project-card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Jogo Fruit Catcher</h5>
+              <p class="card-text">
+                Jogo de pegar frutas usando HTML, CSS e JavaScript.
+                Layout responsivo, ótimo para dispositivos móveis.
+              </p>
+              <i class="fab fa-github github-icon"></i>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre Mim -->
+  <section id="sobre" class="section container py-5" data-aos="fade-up">
+    <h2 class="mb-4 text-center fs-1 animate-float">Sobre Mim</h2>
+    <div class="row align-items-center">
+      <div class="col-md-7">
+        <p>
+          Olá! Me chamo <strong>Gustavo Martins</strong>, sou natural de <strong>Fortaleza - CE</strong> e atuo como
+          <strong>Desenvolvedor Web</strong>, com experiência em <strong>HTML, CSS, JavaScript, React, Bootstrap, Tailwind, TypeScript</strong>
+          e <strong>Node.js</strong>. Atualmente, curso <strong>Análise e Desenvolvimento de Sistemas</strong>.
+        </p>
+        <p>
+          Sou apaixonado por resolver problemas reais com tecnologia e acredito que ela transforma desafios em soluções práticas.
+          Tenho forte interesse em projetos que impactem positivamente a vida das pessoas.
+        </p>
+        <p>
+          Valorizo o <strong>aprendizado contínuo</strong>, a colaboração e a criatividade.
+          Meu objetivo é crescer na área de tecnologia unindo conhecimento técnico e empatia.
+        </p>
+      </div>
+      <div class="col-md-5 position-relative d-flex justify-content-center mt-4">
+        <div class="img-stack">
+          <img src="workeu.jpg" alt="Gustavo Martins trabalhando" class="img-float-glow img-bottom">
         </div>
-    </nav>
+      </div>
+    </div>
+  </section>
 
-    <section id="inicio" class="section d-flex justify-content-center align-items-center">
-        <div class="intro-text text-center me-4" data-aos="fade-up">
-            <h1>Olá, me chamo <br>Gustavo Martins</h1>
-            <p>Desenvolvedor Web</p>
-        </div>
-        <div class="intro-image" data-aos="fade-up" data-aos-delay="300">
-            <img src="gus1.jpg" alt="Foto de Gustavo Martins" class="img-fluid" />
-        </div>
-    </section>
-
-    <section id="projetos" class="section container" data-aos="fade-up">
-        <h2 class="mb-5 text-center">Projetos</h2>
-        <div class="row g-4">
-            <div class="col-md-4">
-                <a href="https://revo-fit.com/" target="_blank" class="project-card-link">
-                    <div class="card p-3 shadow-sm project-card">
-                        <div class="card-body">
-                            <h5 class="card-title">Projeto 1</h5>
-                            <div class="project-description">
-                                <p class="card-text">Este é um projeto incrível onde utilizei TypeScript, React, tailwind.CSS para criar uma Landing page para uma academia, mais o Backend com Node.JS e o Banco com SupaBase. Clique para ver mais!</p>
-                                <i class="fab fa-github github-icon"></i>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-4">
-                <a href="https://github.com/gusttamartins01/chatbot-teste.git" target="_blank" class="project-card-link">
-                    <div class="card p-3 shadow-sm project-card">
-                        <div class="card-body">
-                            <h5 class="card-title">Projeto 2</h5>
-                            <div class="project-description">
-                                <p class="card-text">Projeto de um chatbot tira dúvidas com IA, feito com HTML, CSS, JS e Node.Js. Dê uma olhada no código!</p>
-                                <i class="fab fa-github github-icon"></i>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-4">
-                <a href="https://github.com/gusttamartins01/fruit-catcher-game.git" target="_blank" class="project-card-link">
-                    <div class="card p-3 shadow-sm project-card">
-                        <div class="card-body">
-                            <h5 class="card-title">Projeto 3</h5>
-                            <div class="project-description">
-                                <p class="card-text">Este projeto de um jogo de pegar frutas utiliza HTML, CSS e JavaScript para um design responsivo e moderno, ideal para dispositivos móveis. Confira!</p>
-                                <i class="fab fa-github github-icon"></i>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <section id="sobre" class="section container py-5" data-aos="fade-up">
-        <h2 class="mb-4 text-center fs-1 animate-float">Sobre Mim</h2>
-        <div class="row align-items-center">
-
-            <div class="col-md-7">
-                <p>
-                    Olá! Me chamo <strong>Gustavo Martins</strong>, sou natural de <strong>Fortaleza - CE</strong> e atuo como
-                    <strong>Desenvolvedor Web</strong>, com experiência em <strong>HTML, CSS, JavaScript, React, Bootstrap, tailwind, React, typeScript</strong>
-                    e <strong>Node.js</strong>. Atualmente, estou cursando <strong>Análise e Desenvolvimento de Sistemas</strong>, onde venho
-                    aprofundando meus conhecimentos técnicos e expandindo minha visão sobre o universo da tecnologia.
-                </p>
-                <p>
-                    Sou apaixonado por resolver problemas reais por meio da programação. Acredito que a tecnologia é uma poderosa aliada para
-                    <strong>transformar desafios em soluções práticas e eficientes</strong>, tanto para empresas quanto para pessoas. Tenho um forte
-                    interesse por projetos que impactem positivamente a vida dos usuários e contribuam para melhorias nos processos do dia a dia.
-                </p>
-                <p>
-                    Valorizo o <strong>aprendizado contínuo</strong> e estou sempre buscando evoluir, seja estudando novas ferramentas, participando
-                    de comunidades ou desenvolvendo projetos por conta própria. Tenho um perfil <strong>proativo, colaborativo e curioso</strong>, e
-                    gosto de trabalhar em equipe, compartilhando ideias e aprendendo com os outros.
-                </p>
-                <p>
-                    Meu objetivo é construir uma carreira sólida na área de tecnologia, unindo <strong>conhecimento técnico, criatividade e empatia</strong>
-                    para entregar resultados de valor. Estou pronto para crescer, contribuir e fazer parte de projetos que realmente façam a diferença.
-                </p>
-            </div>
-
-            <div class="col-md-5 position-relative d-flex justify-content-center mt-4">
-                <div class="img-stack">
-                    <img src="workeu.jpg" alt="Imagem 2" class="img-float-glow img-bottom">
-                </div>
-            </div>
-
-        </div>
-
-    <section id="habilidades" class="section" data-aos="fade-up">
+  <section id="habilidades" class="section" data-aos="fade-up">
   <h2 class="mb-5 text-center">Habilidades</h2>
   <ul class="habilidades-list">
     <li>
       <div class="card-skill">
         <i class="fab fa-html5" style="color:#E44D26;"></i>
-        
       </div>
     </li>
     <li>
       <div class="card-skill">
         <i class="fab fa-css3-alt" style="color:#264DE4;"></i>
-        
       </div>
     </li>
     <li>
       <div class="card-skill">
         <i class="fab fa-js-square" style="color:#F7DF1E;"></i>
-        
       </div>
     </li>
     <li>
       <div class="card-skill">
         <i class="fab fa-bootstrap" style="color:#7952B3;"></i>
-       
       </div>
     </li>
     <li>
       <div class="card-skill">
         <i class="fab fa-react" style="color:#61DAFB;"></i>
-        
-      </div>
-    </li>
-    <li>
-      <div class="card-skill">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript">
-       
-      </div>
-    </li>
-    <li>
-      <div class="card-skill">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS">
-    
       </div>
     </li>
     <li>
       <div class="card-skill">
         <i class="fab fa-node-js" style="color:#68A063;"></i>
-
       </div>
     </li>
   </ul>
 </section>
 
-<style>
-.habilidades-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
-  padding: 0;
-  list-style: none;
-}
-
-.card-skill {
-  background: #ffffff10;
-  backdrop-filter: blur(5px);
-  border-radius: 20px;
-  padding: 25px;
-  width: 140px;
-  height: 140px;
-  text-align: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.card-skill i,
-.card-skill img {
-  font-size: 3.5rem;
-  height: 60px;
-  width: 60px;
-}
-
-.card-skill p {
-  margin-top: 10px;
-  font-weight: bold;
-  font-size: 1rem;
-}
-
-.card-skill:hover {
-  transform: scale(1.1);
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
-}
-</style>
 
 
+  <!-- Serviços -->
+  <section id="servicos" class="section container" data-aos="fade-up">
+    <h2 class="mb-4 text-center">Serviços</h2>
 
-
-    <section id="servicos" class="section container" data-aos="fade-up">
-        <h2 class="mb-4 text-center">Serviços</h2>
-
-        <div class="service-item mb-4">
-            <i class="fas fa-laptop-code fa-3x service-icon"></i>
-            <h3>Landing Pages Impactantes</h3>
-            <p>Desenvolvo landing pages que não apenas atraem, mas convertem visitantes em clientes fiéis, maximizando seus resultados digitais.</p>
-        </div>
-
-        <div class="service-item mb-4">
-            <i class="fas fa-code fa-3x service-icon"></i>
-            <h3>Criação de Sites Personalizados</h3>
-            <p>Construo sites exclusivos, responsivos e inovadores, que destacam sua marca e proporcionam experiências memoráveis aos usuários.</p>
-        </div>
-
-        <div class="service-item mb-4">
-            <i class="fas fa-lightbulb fa-3x service-icon"></i>
-            <h3>Consultoria em Experiência Digital</h3>
-            <p>Ofereço insights estratégicos para elevar a performance do seu site, potencializar sua presença online e transformar visitantes em clientes.</p>
-        </div>
-    </section>
-
-    <section id="depoimentos" class="section container" data-aos="fade-up">
-        <h2 class="mb-4 text-center">Depoimentos</h2>
-
-        <div class="depoimento-box">
-            <p class="depoimento-text">
-                “Bom, trabalhar com o Gustavo é sempre uma troca de conhecimentos incríveis. Ele mostra sempre interesse nos projetos e consegue lidar muito bem. Trabalhei com o Gustavo em um projeto de visão computacional para uma feira de profissões. Nesse projeto, trabalhamos em Pair Programming, onde o Gustavo ficou encarregado do Frontend e eu do Backend. Ele fez um excelente trabalho com toda a interface e as stacks utilizadas. Trabalhar com ele foi gratificante demais.”
-            </p>
-            <p class="depoimento-autor">— Lázaro Vasconselos, Desenvolvedor FullStack</p>
-        </div>
-
-        <div class="depoimento-box">
-            <p class="depoimento-text">
-                “Profissional dedicado, talentoso e extremamente competente. Sua atenção aos detalhes e compromisso com a qualidade fazem toda a diferença nos projetos. Recomendo demais.”
-            </p>
-            <p class="depoimento-autor">— Outro Cliente</p>
-        </div>
-    </section>
-
-
-    <section id="contatos" class="section container" data-aos="fade-up">
-        <h2 class="mb-4 text-center">Contatos</h2>
-        <p class="text-center mb-5">Tem um projeto em mente? Deseja tirar dúvidas ou solicitar um serviço? Fale comigo:</p>
-
-        <form class="row g-4 justify-content-center" id="formContato">
-            <div class="col-md-5">
-                <label for="nome" class="form-label fw-semibold">Nome</label>
-                <div class="input-group">
-                    <span class="input-group-text bg-dark text-white"><i class="fas fa-user"></i></span>
-                    <input type="text" class="form-control form-field" id="nome" placeholder="Seu nome" required>
-                </div>
-            </div>
-            <div class="col-md-5">
-                <label for="email" class="form-label fw-semibold">Email</label>
-                <div class="input-group">
-                    <span class="input-group-text bg-dark text-white"><i class="fas fa-envelope"></i></span>
-                    <input type="email" class="form-control form-field" id="email" placeholder="seuemail@exemplo.com" required>
-                </div>
-            </div>
-            <div class="col-md-10">
-                <label for="mensagem" class="form-label fw-semibold">Mensagem</label>
-                <textarea class="form-control form-field" id="mensagem" rows="5" placeholder="Descreva sua dúvida ou solicitação de serviço..." required></textarea>
-            </div>
-            <div class="col-12 text-center">
-                <button type="submit" class="btn btn-outline-info px-5 py-2 fw-bold rounded-pill shadow-sm">Enviar Mensagem</button>
-            </div>
-            <div class="col-12 text-center mt-3">
-                <p id="mensagem-enviada" style="display:none;" class="text-success fw-semibold fs-5">✔️ Sua mensagem foi enviada com sucesso!</p>
-            </div>
-        </form>
-
-        <div class="social-icons-spacing">
-            <div class="redes-icons">
-                <a href="https://github.com/gusttamartins01" class="rede github" target="_blank">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://www.instagram.com/gustta_gus/" class="rede instagram" target="_blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/gustavo-martins-197b70298/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BdWg0DQOJQh%2B17OnIOi7JuQ%3D%3D" class="rede linkedin" target="_blank">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-            </div>
-        </div>
-    </section>
-
-<footer>
-    <div class="container">
-        <p>&copy; 2025 Gustavo Martins. Todos os direitos reservados.</p>
+    <div class="service-item mb-4 text-center">
+      <i class="fas fa-laptop-code fa-3x service-icon"></i>
+      <h3>Landing Pages Impactantes</h3>
+      <p>Landing pages modernas e otimizadas para conversão.</p>
     </div>
-</footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="script.js"></script>
+    <div class="service-item mb-4 text-center">
+      <i class="fas fa-code fa-3x service-icon"></i>
+      <h3>Criação de Sites Personalizados</h3>
+      <p>Sites exclusivos, responsivos e inovadores que destacam sua marca.</p>
+    </div>
+
+    <div class="service-item mb-4 text-center">
+      <i class="fas fa-lightbulb fa-3x service-icon"></i>
+      <h3>Consultoria em Experiência Digital</h3>
+      <p>Consultoria estratégica para melhorar performance e presença online.</p>
+    </div>
+  </section>
+
+  <!-- Depoimentos -->
+  <section id="depoimentos" class="section container" data-aos="fade-up">
+    <h2 class="mb-4 text-center">Depoimentos</h2>
+
+    <div class="depoimento-box">
+      <p class="depoimento-text">
+        “Trabalhar com o Gustavo é uma troca de conhecimentos incrível. 
+        Participamos juntos de um projeto de visão computacional onde ele fez um excelente trabalho no frontend.”
+      </p>
+      <p class="depoimento-autor">— Lázaro Vasconselos, Desenvolvedor FullStack</p>
+    </div>
+
+    <div class="depoimento-box">
+      <p class="depoimento-text">
+        “Profissional dedicado, talentoso e competente. Sua atenção aos detalhes e compromisso com a qualidade fazem toda a diferença.”
+      </p>
+      <p class="depoimento-autor">— Outro Cliente</p>
+    </div>
+  </section>
+
+  <!-- Contatos -->
+  <section id="contatos" class="section container" data-aos="fade-up">
+    <h2 class="mb-4 text-center">Contatos</h2>
+    <p class="text-center mb-5">Tem um projeto em mente? Fale comigo:</p>
+
+    <form class="row g-4 justify-content-center" id="formContato">
+      <div class="col-md-5">
+        <label for="nome" class="form-label fw-semibold">Nome</label>
+        <div class="input-group">
+          <span class="input-group-text bg-dark text-white"><i class="fas fa-user"></i></span>
+          <input type="text" class="form-control form-field" id="nome" placeholder="Seu nome" required>
+        </div>
+      </div>
+      <div class="col-md-5">
+        <label for="email" class="form-label fw-semibold">Email</label>
+        <div class="input-group">
+          <span class="input-group-text bg-dark text-white"><i class="fas fa-envelope"></i></span>
+          <input type="email" class="form-control form-field" id="email" placeholder="seuemail@exemplo.com" required>
+        </div>
+      </div>
+      <div class="col-md-10">
+        <label for="mensagem" class="form-label fw-semibold">Mensagem</label>
+        <textarea class="form-control form-field" id="mensagem" rows="5" placeholder="Descreva sua dúvida ou solicitação..." required></textarea>
+      </div>
+      <div class="col-12 text-center">
+        <button type="submit" class="btn btn-outline-info px-5 py-2 fw-bold rounded-pill shadow-sm">Enviar</button>
+      </div>
+      <div class="col-12 text-center mt-3">
+        <p id="mensagem-enviada" style="display:none;" class="text-success fw-semibold fs-5">✔️ Mensagem enviada com sucesso!</p>
+      </div>
+    </form>
+
+    <div class="social-icons-spacing text-center mt-4">
+      <a href="https://github.com/gusttamartins01" class="rede github me-3" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+      <a href="https://www.instagram.com/gustta_gus/" class="rede instagram me-3" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+      <a href="https://www.linkedin.com/in/gustavo-martins-197b70298" class="rede linkedin" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-3 text-center">
+    <div class="container">
+      <p>&copy; 2025 Gustavo Martins. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
 </body>
-</html>dy>
 </html>
